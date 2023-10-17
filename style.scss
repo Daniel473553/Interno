@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+$dark_logo-clr: #292f36;
+$font_family-norm: "DM Serif Display";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.Logo {
+  width: 177px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  &-text {
+    color: $dark_logo-clr;
+    font-size: 40px;
+    font-family: $font_family-norm;
+  }
+
+  &-icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+  }
+}
+
+.Menubar {
+  display: flex;
+  align-items: center;
+
+  &-Menu {
+    width: 572px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+
+    &-text {
+      color: $dark_logo-clr;
+      font-size: 20px;
+      font-family: $font_family-norm;
+    }
+  }
+
+  &-Search {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+header {
+  display: flex;
+}
